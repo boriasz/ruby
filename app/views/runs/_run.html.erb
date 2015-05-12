@@ -2,8 +2,7 @@
   <%= link_to gravatar_for(run.user), run.user %>
   <span class="user"><%= link_to run.user.name, run.user %></span>
   <p><b>Distance:</b><span class="distance"><%= run.distance.round(2) %>km</span></p>
-  <p><b>Date:</b><span class="date"><%= run.date %>
-    <%= image_tag run.picture.url if run.picture? %></span></p>
+  <p><b>Date:</b><span class="date"><%= run.date %></span></p>
   <span class="timestamp">
     Posted <%= time_ago_in_words(run.created_at) %> ago.
     <% if current_user?(run.user) %>

@@ -22,7 +22,6 @@ class RunsController < ApplicationController
   private
 
   def run_params
-    params.require(:run).permit(:distance, :date, :picture)
   end
 
   def logged_in_user
