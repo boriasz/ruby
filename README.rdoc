@@ -2,5 +2,14 @@
 
 Projekt na zaliczenie z przedmiotu Architektura Serwisów Internetowych.
 
-Heroku: link:https://cryptic-river-3851.herokuapp.com/
+Heroku: cryptic-river-3851.herokuapp.com/
+
+Co jest:
+
+-Bootstrap
+-responsywność
+-paginacja
+-rejestracja/logowanie
+-seeds.rb
+-gravatar
 
